@@ -11,9 +11,9 @@ pm_start_text = """
 👋 Hey [{}](tg://user?id={}), **I'm Song Downloader Bot**
 **Now send me the song name you want to download**
      
-Syntax : ```/dsong Faded```
+Example : ```/find Faded```
       
-Powerd By @SDBotsz 🔥
+Powerd By @TeamInfinityGo 🔥
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🙋‍♀️", url="https://t.me/SDBOTs_Inifinity"
+                        text="Channel 🙋‍♀️", url="https://t.me/TeamInifinityGO"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Itz_Sadew"
+                        text="Developer 🔥", url="https://t.me/TheBusyDev"
                     )
                 ]
             ]
@@ -42,10 +42,5 @@ async def start(client, message):
 app.start()
 LOGGER.info("""
 
-░██████╗██████╗░██████╗░░█████╗░████████╗░██████╗
-██╔════╝██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
-╚█████╗░██║░░██║██████╦╝██║░░██║░░░██║░░░╚█████╗░
-░╚═══██╗██║░░██║██╔══██╗██║░░██║░░░██║░░░░╚═══██╗
-██████╔╝██████╔╝██████╦╝╚█████╔╝░░░██║░░░██████╔╝
-╚═════╝░╚═════╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚═════╝░ SDSongBot is online.""")
+ FinitySongBot is online.""")
 idle()
