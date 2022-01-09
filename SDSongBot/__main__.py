@@ -11,9 +11,9 @@ pm_start_text = """
 👋 Hey [{}](tg://user?id={}), **I'm Song Downloader Bot**
 **Now send me the song name you want to download**
      
-Example : ```/find Faded```
+Example : ```/music Despacito```
       
-Powerd By @TeamInfinityGo 🔥
+Powerd By @SlapTap 🔥
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🙋‍♀️", url="https://t.me/TeamInifinityGO"
+                        text="Updates 👻", url="https://t.me/SlapTap"
                     ),
                     InlineKeyboardButton(
-                        text="Developer 🔥", url="https://t.me/TheBusyDev"
+                        text="📝 Source Code", url="https://youtu.be/dQw4w9WgXcQ"
                     )
                 ]
             ]
